@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_231" class="java.beans.XMLDecoder">
+ <object class="com.huseyinaydin.Main$College" id="Main$College0">
+  <void class="com.huseyinaydin.Main$College" method="getField">
+   <string>students</string>
+   <void method="set">
+    <object idref="Main$College0"/>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <object class="com.huseyinaydin.Main$Student">
+       <void property="name">
+        <string>Hüseyin</string>
+       </void>
+       <void property="nu">
+        <int>1</int>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="com.huseyinaydin.Main$Student">
+       <void property="name">
+        <string>Yasin</string>
+       </void>
+       <void property="nu">
+        <int>2</int>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
